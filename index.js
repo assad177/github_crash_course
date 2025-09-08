@@ -10,3 +10,12 @@ add(9,8);
 const arr=[1,2,3,4,5,6,7];
 const evennumber=arr.filter(x=>x%2===0);
 console.log(evennumber)
+
+const person={
+    name:"assad",
+    age:14,
+    add:function()
+    {
+        console.log(this.name,this.age)
+    }
+}
